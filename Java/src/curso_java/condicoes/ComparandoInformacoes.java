@@ -6,7 +6,7 @@ public class ComparandoInformacoes {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		String nomeCadastrado = "Laís";
+		String nomeCadastrado = "Laï¿½s";
 		
 		System.out.println("Escreva seu nome:");
 		String nome = sc.nextLine();
@@ -15,14 +15,14 @@ public class ComparandoInformacoes {
 		if (nomeCadastrado.equals(nome)) {
 			System.out.println("Existe");
 		}else {
-			System.out.println("Não existe");
+			System.out.println("Nï¿½o existe");
 		}
 		System.out.println("O nome existe? com equalsIgnoreCase");
 		if (nomeCadastrado.equalsIgnoreCase(nome)) {
 			System.out.println("Existe");
 		}else {
-			System.out.println("Não existe");
+			System.out.println("Nï¿½o existe");
 		}
-		sc.close();
+		sc.close();//teste pra voce ver
 	}
 }
