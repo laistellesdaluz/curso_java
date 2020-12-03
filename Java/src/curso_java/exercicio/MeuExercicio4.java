@@ -47,6 +47,6 @@ public class MeuExercicio4 {
 				System.out.println("Opção inválida!");
 				break;
 			}			
-		} while (opcao <= 4);		
+		} while (opcao != 4);		
 	}
 }
